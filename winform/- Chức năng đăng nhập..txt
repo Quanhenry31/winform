@@ -1,0 +1,14 @@
+- Chức năng đăng nhập.
+- Chức năng đăng kí tài khoản.
+- Chức năng đăng xuất.
+- Chức năng liên kết mạng xã hội.
+- Chức năng thêm, sửa, xóa trong thư viện.
+- Chức năng thêm, sửa, xóa học sinh trong thư viện.
+- Chức năng phát sách  trong thư viện.
+- Chức năng trả sách trong thư viện.
+- Chức năng tìm kiếm sách trong thư viện.
+- Chức năng tìm kiếm sinh viên trong thư viện.
+- Chức năng in ấn sách có trong thư viện.
+- Chức năng hiển thị thông tin trong thư viện.
+// vẽ biểu đồ và liệt kê chi tiết các mô tả yêu cầu, chức năng
+// các chwucs năng hệ thống như là : đăng  nhập, đăng xuất,...

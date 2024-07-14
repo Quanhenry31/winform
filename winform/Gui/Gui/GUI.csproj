@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3B8A9E3-062B-4042-A4F2-1B35E2889587}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gui</RootNamespace>
+    <AssemblyName>Gui</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI_Adddg_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Adddg_2.Designer.cs">
+      <DependentUpon>GUI_Adddg_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Book.Designer.cs">
+      <DependentUpon>GUI_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Addpm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Addpm.Designer.cs">
+      <DependentUpon>GUI_Addpm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui_Detaipm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui_Detaipm.Designer.cs">
+      <DependentUpon>Gui_Detaipm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Dkdg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Dkdg.Designer.cs">
+      <DependentUpon>GUI_Dkdg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Help.Designer.cs">
+      <DependentUpon>GUI_Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Login.Designer.cs">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Maindg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Maindg.Designer.cs">
+      <DependentUpon>GUI_Maindg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Maintt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Maintt.Designer.cs">
+      <DependentUpon>GUI_Maintt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Adddg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Adddg.Designer.cs">
+      <DependentUpon>GUI_Adddg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Dktt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Dktt.Designer.cs">
+      <DependentUpon>GUI_Dktt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Thuthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Thuthu.Designer.cs">
+      <DependentUpon>GUI_Thuthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Viewpm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Viewpm.Designer.cs">
+      <DependentUpon>GUI_Viewpm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Viewdg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Viewdg.Designer.cs">
+      <DependentUpon>GUI_Viewdg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Viewbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Viewbook.Designer.cs">
+      <DependentUpon>GUI_Viewbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Viewtt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Viewtt.Designer.cs">
+      <DependentUpon>GUI_Viewtt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI_Adddg_2.resx">
+      <DependentUpon>GUI_Adddg_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Book.resx">
+      <DependentUpon>GUI_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Addpm.resx">
+      <DependentUpon>GUI_Addpm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui_Detaipm.resx">
+      <DependentUpon>Gui_Detaipm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Dkdg.resx">
+      <DependentUpon>GUI_Dkdg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Help.resx">
+      <DependentUpon>GUI_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Login.resx">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Maindg.resx">
+      <DependentUpon>GUI_Maindg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Maintt.resx">
+      <DependentUpon>GUI_Maintt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Adddg.resx">
+      <DependentUpon>GUI_Adddg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Dktt.resx">
+      <DependentUpon>GUI_Dktt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Thuthu.resx">
+      <DependentUpon>GUI_Thuthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Viewpm.resx">
+      <DependentUpon>GUI_Viewpm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Viewbook.resx">
+      <DependentUpon>GUI_Viewbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Viewdg.resx">
+      <DependentUpon>GUI_Viewdg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Viewtt.resx">
+      <DependentUpon>GUI_Viewtt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLL\BUS.csproj">
+      <Project>{c17a4115-f5e5-4eec-a0cf-a052d158cf78}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{49422165-b7ad-4d75-aa9f-5cb5e4f9d5fe}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addstudent.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-forgot-password-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books_library_shelves_138556_1920x1080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1296370_book_note_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_xem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-student-male-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addstudent1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3099383_student_man_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_studen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_hocsinh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6771580_book_education_learning_school_science_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tickets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tt_ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail_thuvien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\299047_address_book_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\librarian_thuthu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tt_thuthu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thong tin thu thu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\librarian_thuthu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-help-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-help-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themtt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-help-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tickets1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-new-ticket-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support-ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\độcgia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1564520_code_open_password_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\619539_close_delete_dismiss_exit_cancel_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deash1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro-1659287686.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro-16592876861.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro-16592876862.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_356427180_CuwGQ51ga8L1Qsy8DuF3BdFLnu81sJVv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_356427003_TjQNQQ40MP7u0sOtqhqUNljYQmWoNsDg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deash11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_356427180_CuwGQ51ga8L1Qsy8DuF3BdFLnu81sJVv1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro-16592876863.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phan-mem-quan-ly-thu-vien5-1024x683.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thu vien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh-nen-sach-cho-smartphone_012538861.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addstudent2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LfPW.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LfPW1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnchantedComplexCrossbill-size_restricted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tt_thuthu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %283%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_356427003_TjQNQQ40MP7u0sOtqhqUNljYQmWoNsDg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-read-animated-library-quote-wqoobmvrt742qi1l.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-482905721-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a6438d0aa7c55e82f1ed220a06f2d658.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-read-animated-library-quote-wqoobmvrt742qi1l1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\librarian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animated-library-image-0012.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a6438d0aa7c55e82f1ed220a06f2d6581.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh-nen-sach-cho-smartphone_0125388611.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DTO\bin\Debug\DTO.dll
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DTO\bin\Debug\DTO.pdb
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DTO\obj\Debug\DTO.dll
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DTO\obj\Debug\DTO.pdb

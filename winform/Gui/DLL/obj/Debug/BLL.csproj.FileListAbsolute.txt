@@ -1,0 +1,11 @@
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\bin\Debug\DLL.dll
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\bin\Debug\DLL.pdb
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\bin\Debug\DAL.dll
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\bin\Debug\DTO.dll
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\bin\Debug\DAL.pdb
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\bin\Debug\DTO.pdb
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\obj\Debug\DLL.dll
+C:\Users\tranb\OneDrive\Documents\Nam2--HK_II\winform\Gui\DLL\obj\Debug\DLL.pdb
